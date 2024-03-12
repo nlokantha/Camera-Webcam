@@ -35,7 +35,7 @@ public class LovUtility{
 		return binder;
 	}
 
-	protected static CreService getService(){
+	public static CreService getService(){
 
 		if(mService == null){
 			IBinder binder = getServiceBinder();
